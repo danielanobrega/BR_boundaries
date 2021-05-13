@@ -1,0 +1,143 @@
+Var_Name,Definition,Data_Scale,Source,Census Variable Name (when different from definition)
+Urbanization,Urbanization,County,Texas DSHS,
+Pop2016,Pop2016,County,US Census Bureau,
+Pop2010,Pop2010,County,US Census Bureau,
+AnnNetMig,Annual Net Migration,County,US Census Bureau,"Annual Estimates of the Components of Population Change - July 1, 2015 to July 1, 2016 - Net Migration - Total"
+AnnNetMigNorm,Annual Net Migration (Normalized),County,US Census Bureau,AnnNetMig/Pop2016
+AnnPopChng,Annual Population Change,County,US Census Bureau,"Annual Estimates of the Components of Population Change - July 1, 2015 to July 1, 2016 - Total Population Change"
+AnnPopChngNorm,Annual Population Change (Normalized),County,US Census Bureau,AnnPopChng/Pop2016
+TotNetMig,Total Net Migration,County,US Census Bureau,"Cumulative Estimates of the Components of Population Change - April 1, 2010 to July 1, 2016 - Net Migration - Total"
+TotNetMigNorm,Total Net Migration (Normalized),County,US Census Bureau,TotNetMig/Pop2016
+TotPopChng,Total Population Change,County,US Census Bureau,"Cumulative Estimates of the Components of Population Change - April 1, 2010 to July 1, 2016 - Total Population Change"
+TotPopChngNorm,Total Population Change (Normalized),County,US Census Bureau,TotPopChng/Pop2016
+density,Population Density,County,US Census Bureau,Density per square mile of land area - Population
+KinderEnrollment,Kindergarten Enrollment,County,US Census Bureau,the sum of HD01_VD07 Estimate; Male: - Enrolled in school: - Enrolled in kindergarten and HD01_VD31
+KinderPrivate,Kindergarten Enrollment in Private Schools (Number of Students),County,US Census Bureau,the sum of HD01_VD09
+PropPrivate,Proportion of Kindergarten Enrollment in Private Schools,County,US Census Bureau,KinderPrivate/KinderEnrollment : Number of kindergarteners enrolled in private school in a county/ # of kindergartners in a county
+AvgHouseholdSize,Average Household Size,County,US Census Bureau,Estimate; HOUSING TENURE - Average household size of owner-occupied unit
+pop_under_5,Population under 5,County,US Census Bureau,Estimate: population under 5 years
+prop_pop_under_5,Proportion of Population Under 5,County,US Census Bureau,pop_under_5 / total population (also given in age_and_sex_2016)
+PropUnder5Poverty,Proportion of Population Under 5 Living in Poverty,County,US Census Bureau,"the sum of male and female below poverty, divided by total number of kids below 5 across all 4 levels"
+MedIncome,Median Income,County,US Census Bureau,Estimate; INCOME AND BENEFITS (IN 2016 INFLATION-ADJUSTED DOLLARS) - Total households - Median household income (dollars)
+Unemployment,Percent Employment,County,US Census Bureau,Percent; EMPLOYMENT STATUS - Population 16 years and over - In labor force - Civilian labor force - Unemployed
+GINI,GINI Index,County,US Census Bureau,Estimate; Gini Index
+PercWhite,Percent White,County,US Census Bureau,Percent; RACE - One race - White
+Bachelors,Percent Bachelor's Degree ,County,US Census Bureau,Percent; EDUCATIONAL ATTAINMENT - Population 25 years and over - Bachelor's degree
+ESL,Percent ESL ,County,US Census Bureau,Percent; LANGUAGE SPOKEN AT HOME - Population 5 years and over - Language other than English
+adherence,Total Number of Adherents,County,U.S. Religion Census Religious Congregations and Membership Study,Total number of adherents (2010) (TOTADH)
+prop_adherence,Total Number of Adherents/Population 2010,County,U.S. Religion Census Religious Congregations and Membership Study,adherence/Pop2010
+num.dist,Number of Districts,County,,
+Pop_16,Population 2016,District,US Census Bureau,
+Type,District Type,District,Texas Education Agency,
+district_size,District Size,District,US Census Bureau,Total; Estimate; Total population
+move_diff_state,Number Moved from Different State,District,US Census Bureau,Estimate; Total: - Moved from different state: (any time)
+move_diff_state_perc,Number Moved from Different State (Normalized),District,US Census Bureau,move_diff_state/number of homes
+same_house_one_year_est,Number Lived in Same House One Year Ago,District,US Census Bureau,Estimate; Total: - Same house 1 year ago:
+same_house_one_year_perc,Number Lived in Same House One Year Ago (Normalized),District,US Census Bureau,same_house_one_year_est/number of homes
+percent_kinder,Percent in Kindergarten,District,US Census Bureau,Percent; Estimate; Kindergarten
+private_percent_kinder,Percentage of Kindergarten Enrollment in Private Schools,District,US Census Bureau,Percent in private school; Estimate; Kindergarten
+private_perc,Percentage of K-12 Enrollment in Private Schools,District,US Census Bureau,Percent in private school; Estimate; Kindergarten to 12th grade
+prop_pop_under_5,Percent Under Five Years Old,District,US Census Bureau,Total; Estimate; AGE - Under 5 years
+poverty_perc_under5,Percent Under Five Years Old in Poverty,District,US Census Bureau,Percent below poverty level; Estimate; AGE - Under 18 years - Under 5 years
+MedIncome,Median Income,District,US Census Bureau,Families; Estimate; Median income (dollars)
+Unemployment,Unemployment Rate,District,US Census Bureau,
+US_citizen,Number of US Citizens,District,US Census Bureau,"Estimate; Total: - U.S. citizen, born in the United States"
+US_citizen_perc,Percent of US Citizens,District,US Census Bureau,US_citizen/Pop_16
+mom_at_home_count,Number of Families with Stay-at-Home Moms,District,US Census Bureau,"Families with own children under 18 years; Estimate; EMPLOYMENT STATUS CHARACTERISTICS - Married-couple families - Husband in labor force, wife not in labor force"
+mom_at_home_perc,Number of Families with Stay-at-Home Moms (Normalized),District,US Census Bureau,"Percent; Estimate; EMPLOYMENT STATUS CHARACTERISTICS - Married-couple families - Husband in labor force, wife not in labor force"
+dad_at_home_perc,Number of Families with Stay-at-Home Dads (Normalized),District,US Census Bureau,"Percent; Estimate; EMPLOYMENT STATUS CHARACTERISTICS - Married-couple families - Wife in labor force, husband not in labor force"
+working_parents_count,Number of Families with Two Working Parents,District,US Census Bureau,Families with own children under 18 years; Estimate; EMPLOYMENT STATUS CHARACTERISTICS - Married-couple families - Both husband and wife in labor force
+working_parents_perc,Number of Families with Two Working Parents (Normalized),District,US Census Bureau,Percent; Estimate; EMPLOYMENT STATUS CHARACTERISTICS - Married-couple families - Both husband and wife in labor force
+insured_perc,Percent Insured,District,US Census Bureau,Percent Insured; Estimate; Civilian noninstitutionalized population
+insured_kids_perc,Percent of Children Insured,District,US Census Bureau,Percent Insured; Estimate; AGE - Under 18 years
+non_english_speaker,Percent Speak Non-English Language,District,US Census Bureau,Percent; Estimate; Speak a language other than English
+spanish_speaker,Percent Speak Spanish,District,US Census Bureau,Percent; Estimate; SPEAK A LANGUAGE OTHER THAN ENGLISH - Spanish
+ESL,Percent ESL ,District,US Census Bureau,"Percent of specified language speakers - Percent speak English less than ""very well""; Estimate; Population 5 years and over"
+poverty_perc_under18,Percent of Children in Poverty,District,US Census Bureau,Percent below poverty level; Estimate; AGE - Under 18 years
+private_perc_highschool,Percentage of High School Enrollment in Private Schools,District,US Census Bureau,Percent in private school; Estimate; High school: grade 9 to grade 12
+private_perc_elementary,Percentage of Elementary Enrollment in Private Schools,District,US Census Bureau,Percent in private school; Estimate; Elementary: grade 5 to grade 8
+labor_participation,Labor Force Participation Rate,District,US Census Bureau,Labor Force Participation Rate; Estimate; AGE - 16 to 19 years
+white,Number White,District,US Census Bureau,Estimate; Total: - White alone
+perc_white,Percent White,District,US Census Bureau,white/Pop_16
+DA0AT15R,Attendance Rate (2014-15),District,Texas Education Agency,
+DPSTTOSA,Average Salary: Teacher,District,Texas Education Agency,
+COMMTYPE,Community Type,District,Texas Education Agency,
+DZRATING,District Accountability Ratings,District,Texas Education Agency,
+DISTSIZE,District Size,District,Texas Education Agency,
+REGION,Education Service Center Region,District,Texas Education Agency,
+DPFPACOMP,Expenditure: % Accelerated Education,District,Texas Education Agency,
+DPFPAATHP,Expenditure: % Athletics/Related Activities,District,Texas Education Agency,
+DPFPABILP,Expenditure: % Bilingual/ESL Education,District,Texas Education Agency,
+DPFPAVOCP,Expenditure: % Career and Technical Education,District,Texas Education Agency,
+DZEXADMP,Expenditure: % Central Administrative,District,Texas Education Agency,
+DPFPAGIFP,Expenditure: % Gifted and Talented Education,District,Texas Education Agency,
+DPFPAHSAP,Expenditure: % High School Allotment,District,Texas Education Agency,
+DPFEAINSP,Expenditure: % Instructional,District,Texas Education Agency,
+DPFPAOTHP,Expenditure: % Other,District,Texas Education Agency,
+DZEXOTHP,Expenditure: % Other Operating,District,Texas Education Agency,
+DZEXPLAP,Expenditure: % Plant Services,District,Texas Education Agency,
+DPFPREKP,Expenditure: % Prekindergarten,District,Texas Education Agency,
+DPFPAREGP,Expenditure: % Regular Education,District,Texas Education Agency,
+DZEXADSP,Expenditure: % School Leadership,District,Texas Education Agency,
+DPFPASPEP,Expenditure: % Special Education,District,Texas Education Agency,
+DPFUNAB1T,Fund Balance (for ISDs),District,Texas Education Agency,
+DPSTKIDR,Number of Students per Teacher,District,Texas Education Agency,
+DPSAKIDR,Number of Students per Total Staff,District,Texas Education Agency,
+PROPWLTH,Property Wealth,District,Texas Education Agency,
+DPFRAFEDP,Revenue: % Federal,District,Texas Education Agency,
+DZRVLOCP,Revenue: % Local and Other,District,Texas Education Agency,
+DPFRASTAP,Revenue: % State,District,Texas Education Agency,
+DA00A001S16R,STAAR: % All Subjects,District,Texas Education Agency,
+DE00A001S16R,STAAR: % Economically Disadvantaged,District,Texas Education Agency,
+DA00AR01S16R,STAAR: % ELA/Reading,District,Texas Education Agency,
+DH00A001S16R,STAAR: % Hispanic,District,Texas Education Agency,
+DA00AM01S16R,STAAR: % Mathematics,District,Texas Education Agency,
+DA00AC01S16R,STAAR: % Science,District,Texas Education Agency,
+DW00A001S16R,STAAR: % White,District,Texas Education Agency,
+DA00AW01S16R,STAAR: % Writing,District,Texas Education Agency,
+DPSXTOFP,Staff: % Auxiliary,District,Texas Education Agency,
+DPSCTOFP,Staff: % Central Administrative,District,Texas Education Agency,
+DPSETOFP,Staff: % Educational Aides,District,Texas Education Agency,
+DPSAMIFP,Staff: % Minority,District,Texas Education Agency,
+DPSUTOFP,Staff: % Professional Support,District,Texas Education Agency,
+DPSSTOFP,Staff: % School Administrative,District,Texas Education Agency,
+DPSTTOFP,Staff: % Teachers,District,Texas Education Agency,
+DPETBLAP,Students: % African American,District,Texas Education Agency,
+DPETINDP,Students: % American Indian,District,Texas Education Agency,
+DPETASIP,Students: % Asian,District,Texas Education Agency,
+DPETBILP,Students: % Bilingual/ESL Education,District,Texas Education Agency,
+DPETVOCP,Students: % Career and Technical Education,District,Texas Education Agency,
+DPETECOP,Students: % Economically Disadvantaged,District,Texas Education Agency,
+DPETLEPP,Students: % English Lanuage Learners (ELL),District,Texas Education Agency,
+DPETGIFP,Students: % Gifted and Talented Education,District,Texas Education Agency,
+DPETHISP,Students: % Hispanic,District,Texas Education Agency,
+DPETPCIP,Students: % Pacific Islander,District,Texas Education Agency,
+DPETSPEP,Students: % Special Education,District,Texas Education Agency,
+DPETTWOP,Students: % Two or More Races,District,Texas Education Agency,
+DPETWHIP,Students: % White,District,Texas Education Agency,
+TAXRATE,Tax Rate,District,Texas Education Agency,
+DPSTBLFP,Teacher: % African American,District,Texas Education Agency,
+DPSTBIFP,Teacher: % Bilingual/ESL Education,District,Texas Education Agency,
+DPSTVOFP,Teacher: % Career and Technical Education,District,Texas Education Agency,
+DPSTCOFP,Teacher: % Compensatory Education,District,Texas Education Agency,
+DPSTHIFP,Teacher: % Hispanic,District,Texas Education Agency,
+DPSTO2FP,Teacher: % Other,District,Texas Education Agency,
+DPSTGOFP,Teacher: % Other Education (Includes G & T),District,Texas Education Agency,
+DPSTREFP,Teacher: % Regular Education',District,Texas Education Agency,
+DPSTSPFP,Teacher: % Special Education,District,Texas Education Agency,
+DPSTWHFP,Teacher: % White,District,Texas Education Agency,
+DPST05FP,Teacher: % With 5 or Fewer Years of Experience,District,Texas Education Agency,
+DPSTADFP,Teacher: % With Advanced Degrees,District,Texas Education Agency,
+DPSTEXPA,Teacher: Average Years of Experience,District,Texas Education Agency,
+DPSTURNR,Teacher: Turnover Rate,District,Texas Education Agency,
+DPFEAALLT,Total Actual Expenditures (2014-15),District,Texas Education Agency,
+DPFEAINST,Total Actual Instructional Expenditures,District,Texas Education Agency,
+DPFEAINSK,Total Actual Instructional Expenditures per Pupil,District,Texas Education Agency,
+DPFEAOPFT,Total Actual Operating Expenditures (2014-15),District,Texas Education Agency,
+DPFEAOPFK,Total Actual Operating Expenditures per Pupil,District,Texas Education Agency,
+DPFRAALLT,Total Actual Revenue (2014-15),District,Texas Education Agency,
+DPFRAALLK,Total Actual Revenue per Pupil,District,Texas Education Agency,
+DZCAMPUS,Total Number of Schools,District,Texas Education Agency,
+DPSATOFC,Total Staff FTE,District,Texas Education Agency,
+DPETALLC,Total Students,District,Texas Education Agency,
+DPSTTOFC,Total Teacher FTE,District,Texas Education Agency,
